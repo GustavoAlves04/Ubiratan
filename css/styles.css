@@ -23,6 +23,9 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    background-image: linear-gradient(to left, rgb(29, 1, 29), rgb(24, 24, 24), rgb(10, 10, 10), rgb(29, 0, 29));
+    background-size: 500% 100%;
+    animation: degrade 4s infinite alternate;
 
 }
 
@@ -96,9 +99,7 @@ section{
     display: flex;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(to left, rgb(29, 1, 29), rgb(24, 24, 24), rgb(10, 10, 10), rgb(29, 0, 29));
-    background-size: 500% 100%;
-    animation: degrade 4s infinite alternate;
+    
 }
 
 @keyframes degrade {
@@ -140,10 +141,6 @@ header.sticky{
     background: var(--text-color);
 }
 
-.sticky .h-btn{
-    background: var(--text-color);
-    color: #000;
-}
 .sobre{
     background: var(--secound-bg-color);
     display: grid;
@@ -201,14 +198,7 @@ header.sticky{
 .btn-saiba:hover {
     border: 2px solid #a328c2;
     background: transparent;
-    transform: translateY(-8px);
-}
-
-.neuro{
-    background: var(--bg-color);
-    background-image: linear-gradient(to left, rgb(29, 1, 29), rgb(24, 24, 24), rgb(10, 10, 10), rgb(29, 0, 29));
-    background-size: 500% 100%;
-    animation: degrade 4s infinite alternate;
+    transform: translateY(-6px);
 }
 
 .center{
@@ -265,21 +255,6 @@ header.sticky{
 .row:hover{
     transform: translateY(-15px);
 
-}
-
-.contato{
-    background-image: linear-gradient(to left, rgb(29, 1, 29), rgb(24, 24, 24), rgb(10, 10, 10), rgb(29, 0, 29));
-    background-size: 500% 100%;
-    animation: degrade 4s infinite alternate;
-}
-
-.main-login{
-    width: 100vw;
-    height: 100vh;
-    background: rgb(22, 1, 22);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .formulario-de-contato h2{
