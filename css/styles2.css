@@ -143,6 +143,11 @@ header.sticky{
     font-size: 1.7rem;
 }
 
+.texto-h1 h3{
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
 .about-texto h2{
     color: white;
     font-size: 2.5rem;
@@ -150,7 +155,7 @@ header.sticky{
 }
 
 .about-texto h5{
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 15px;
     letter-spacing: 2px;
 
@@ -159,15 +164,30 @@ header.sticky{
 .about-texto p{
     color: #c6c9d8bf;
     letter-spacing: 1px;
-    line-height: 28px;
+    line-height: 1.75rem;
     max-width: 600px;
     font-size: 1.1rem;
 }
 
-.curriculo{
+.curriculo h2{
     color: white;
-    display: flex;
     padding-left: 5%;
     padding-top: 10%;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
+    font-family: 200;
+}
+
+.curriculo h4 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #ce62e9;
+    font-family: 500;
+    padding-left: 5%;
+    margin-top: 10px;
+}
+
+.curriculo p{
+   color: #c6c9d8bf;
+   padding-left: 5%;
+   font-size: 1.3rem;
 }
