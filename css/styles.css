@@ -335,19 +335,63 @@ header.sticky{
     .navbar.active {
         top: 100%;
     }
-    .about{
+    .sobre{
         grid-template-columns: 1fr;
     }
-    .about-img{
+    .sobre-img{
         text-align: center;
         margin-bottom: 30px;
     }
-    .about-img img{
+    .sobre-img img{
         max-width: 100%;
         width: 700px;
         height: auto;
     }
     .contato{
         grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 708px){
+    .home-texto h1{
+        font-size: 4rem;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 586px){
+    .home-texto h1{
+        font-size: 2.5rem;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 425px){
+    .home-texto h1{
+        font-size: 2rem;
+        transition: .2s;
+    }
+
+    .home{
+        height: 100vh;
+    }
+    .home-texto h3{
+        font-size: 15px;
+        transition: .2s;
+    }
+    .logo{
+        font-size: 25px;
+        transition: .2s;
+    }
+    :root{
+        --big-font: 2rem;
+        --h2-font: 2rem;
+        --p-font: 1rem;
+        transition: .2s;
+    }
+}
+@media (max-width: 346px){
+    .home-texto h1{
+        font-size: 1.7rem;
+        transition: .2s;
     }
 }

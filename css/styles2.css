@@ -425,7 +425,7 @@ header.sticky{
         max-width: 100%;
         width: 200px;
         height: auto;
-        margin: 0 auto;
+        margin: 0;
         padding-left: 0;    
     }
     .about-texto{
