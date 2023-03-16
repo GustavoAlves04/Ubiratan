@@ -132,8 +132,8 @@ header.sticky{
 }
 
 .about-texto{
-    margin-top: 30%;
     display: grid;
+    margin-top: 250px;
 }
 
 .texto-h1{
@@ -164,7 +164,7 @@ header.sticky{
 .about-texto p{
     color: #c6c9d8bf;
     letter-spacing: 1px;
-    line-height: 1.75rem;
+    line-height: 1.5rem;
     max-width: 600px;
     font-size: 1.1rem;
 }
@@ -211,6 +211,31 @@ header.sticky{
    padding-left: 5%;
    font-size: 1.3rem;
 }
+
+@media (max-width: 1500px){
+    .about-img img{
+        max-width: 100%;
+        width: 500px;
+        height: auto;
+        margin-left: 150px;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1350px){
+    .about-texto h2{
+        font-size: 2rem;
+    }
+    .about-texto h5{
+        font-size: 1.15rem;
+        transition: .2s;
+    }
+    .about-texto p{
+        font-size: 1rem;
+        transition: .2s;
+    }
+}
+
 @media (max-width: 1300px){
     header{
         padding: 18px 4%;
@@ -229,6 +254,76 @@ header.sticky{
         --h2-font: 2.5rem;
         --p-font: 1rem;
         transition: .2s;
+    }
+    .about-img img{
+        max-width: 100%;
+        width: 500px;
+        height: auto;
+        margin-left: 90px;
+        transition: .2s;
+    }
+    .about-texto h2{
+        font-size: 2rem;
+        transition: .2s;
+    }
+    .about-texto h5{
+        font-size: 1.15rem;
+        transition: .2s;
+    }
+    .about-texto p{
+        font-size: 1rem;
+        transition: .2s;
+    }
+}
+@media (max-width: 1282px){
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+    }
+    .about-img img{
+        max-width: 100%;
+        width: 600px;
+        height: auto;
+        margin-left: 20px;
+        transition: .2s;
+    }
+    .about-texto h2{
+        text-align: center;
+        transition: .2s;
+    }
+    .about-texto h5 {
+        text-align: center;
+    }
+    .about-texto p{
+        max-width: 1000px;
+        line-height: 1.4rem;
+        margin-left: 130px;
+        transition: .2s;
+    }
+    .curriculo h2{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1024px){
+    .curriculo h2{
+        font-size: 1.8rem;
+    }
+    .curriculo h4{
+        font-size: 1.2rem;
+    }
+    .curriculo p{
+        font-size: 1.1rem;
+        width: 350px;
+    }
+    .img-carreira img{
+        max-width: 100%;
+        width: 650px;
+        height: auto;
+        margin-left: 0;
+        padding-left: 0;    
     }
 }
 
@@ -266,6 +361,7 @@ header.sticky{
     }
     .about{
         grid-template-columns: 1fr;
+        transition: .2s;
     }
     .about-img{
         text-align: center;
@@ -274,28 +370,57 @@ header.sticky{
         max-width: 100%;
         width: 600px;
         height: auto;
-        margin-left: 0;
+        margin-left: 20px;
+        
     }
     .about-texto h2{
         text-align: center;
+        
     }
     .about-texto h5 {
         text-align: center;
+        
     }
     .about-texto p{
         max-width: 1000px;
         line-height: 1.4rem;
         margin-left: 15px;
+        transition: .2s;
     }
-    .row{
-        display: grid;
-        grid-template-columns: 3fr;
+
+    .img-carreira img{
+        max-width: 100%;
+        width: 600px;
+        height: auto;
+        margin-left: 0;
+        padding-left: 0;    
     }
 }
 
+
 @media (max-width: 768px){
+    .curriculo h2{
+        font-size: 2rem;
+    }
+    .curriculo h4{
+        font-size: 1.3rem;
+    }
+    .curriculo p{
+        font-size: 1.1rem;
+        width: 100%;
+    }
     .row{
         display: grid;
         grid-template-columns: 3fr;
+    }
+    .img-carreira{
+        text-align: center;
+    }
+    .img-carreira img{
+        max-width: 100%;
+        width: 600px;
+        height: auto;
+        margin-left: 0;
+        padding-left: 0;    
     }
 }
