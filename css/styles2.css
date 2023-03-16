@@ -169,6 +169,26 @@ header.sticky{
     font-size: 1.1rem;
 }
 
+.row{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.img-carreira{
+    margin-top: 9.375rem;
+}
+
+.img-carreira img{
+    padding: 3.125rem;
+    width: 500px;
+    position: relative;
+}
+
+.curriculo{
+    margin-right: 200px;
+}
+
 .curriculo h2{
     color: white;
     padding-left: 5%;
@@ -266,5 +286,16 @@ header.sticky{
         max-width: 1000px;
         line-height: 1.4rem;
         margin-left: 15px;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 3fr;
+    }
+}
+
+@media (max-width: 768px){
+    .row{
+        display: grid;
+        grid-template-columns: 3fr;
     }
 }

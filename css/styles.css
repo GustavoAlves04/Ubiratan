@@ -210,13 +210,6 @@ header.sticky{
     margin-bottom: 15px;
 }
 
-.center p{
-    color: var(--secound-color);
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: var(--p-font);
-}
-
 .ex-neuro{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, auto));
